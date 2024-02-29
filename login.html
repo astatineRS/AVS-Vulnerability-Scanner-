@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Foresty</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" type="image/x-icon" href="Assets/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Assets/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Assets/logo.png">
+</head>
+
+<body>
+
+    <h1 class="heading" data-value="FORESTY">FORESTY</h1>
+
+    <div class="bg" id="bg">
+        <div class="bgani"></div>
+        <div class="bgani2"></div>
+    </div>
+
+    <div class="wrapper">
+        <div class="card-switch">
+            <label class="switch">
+               <input class="toggle" type="checkbox">
+               <span class="slider"></span>
+               <span class="card-side"></span>
+               <div class="flip-card__inner">
+                  <div class="flip-card__front">
+                     <div class="title">Log in</div>
+                     <form action="" class="flip-card__form">
+                        <input type="email" placeholder="Email" id="lemail" class="flip-card__input">
+                        <input type="password" placeholder="Password" id="lpassword" class="flip-card__input">
+                        <button class="flip-card__btn" id="login">Let`s go!</button>
+                     </form>
+                  </div>
+                  <div class="flip-card__back">
+                     <div class="title">Sign up</div>
+                     <form action="" class="flip-card__form">
+                        <input type="name" placeholder="Name" id="name" class="flip-card__input">
+                        <input type="email" placeholder="Email" id="email" class="flip-card__input">
+                        <input type="password" placeholder="Password" id="password" class="flip-card__input">
+                        <button class="flip-card__btn" id="register">Create!</button>
+                     </form>
+                  </div>
+               </div>
+            </label>
+        </div>   
+   </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>
